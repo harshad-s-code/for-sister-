@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <title>A Little World for Bandriya 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="floating-hearts" id="floating-hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">♡ for Bandriya</a>
+    <span class="top-note">made with lots of love ✨</span>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-badge">♡ A LITTLE SURPRISE FOR YOU ♡</div>
+      <div class="hero-flower flower-one">🌸</div>
+      <div class="hero-flower flower-two">🌷</div>
+
+      <p class="eyebrow">To my favourite troublemaker</p>
+      <h1>Hey, <span>Bandriya!</span></h1>
+      <p class="hero-text">
+        I made a tiny corner of the internet just for you.
+        Because you deserve a little extra happiness today. 💕
+      </p>
+
+      <a class="primary-button" href="#cards">Open your little surprise <span>♡</span></a>
+      <div class="scroll-note">A little love is waiting below ↓</div>
+    </section>
+
+    <section class="section cards-section" id="cards">
+      <p class="eyebrow">A FEW LITTLE REMINDERS</p>
+      <h2>Open when you need a smile 💌</h2>
+      <p class="section-intro">Pick a card, Bandriya. There's something inside each one!</p>
+
+      <div class="card-grid">
+        <button class="greeting-card pink-card" type="button"
+          aria-expanded="false">
+          <span class="card-icon">🌷</span>
+          <span class="card-title">A little reminder</span>
+          <span class="card-hint">Tap to open ↗</span>
+          <span class="card-message">
+            You make ordinary days feel special.
+            Never forget how loved you are. 💗
+          </span>
+        </button>
+
+        <button class="greeting-card peach-card" type="button"
+          aria-expanded="false">
+          <span class="card-icon">🧸</span>
+          <span class="card-title">For your bad days</span>
+          <span class="card-hint">Tap to open ↗</span>
+          <span class="card-message">
+            Bad days don't last forever.
+            Take a breath, have a little rest,
+            and remember that brighter days are coming. 🌈
+          </span>
+        </button>
+
+        <button class="greeting-card lilac-card" type="button"
+          aria-expanded="false">
+          <span class="card-icon">💖</span>
+          <span class="card-title">Your secret superpower</span>
+          <span class="card-hint">Tap to open ↗</span>
+          <span class="card-message">
+            It's your own special way of making life
+            more colourful. The world is better with you in it! ✨
+          </span>
+        </button>
+      </div>
+      <p class="tiny-note">Psst... tap the cards again to close them.</p>
+    </section>
+
+    <section class="gift-section section" id="gift">
+      <p class="eyebrow">SOMETHING JUST FOR YOU</p>
+      <h2>A tiny gift, with a giant hug 🎀</h2>
+      <p class="section-intro">Go on, tap the gift. I promise it's not a prank!</p>
+
+      <button class="gift-button" id="gift-button"
+        type="button" aria-label="Open your surprise gift">
+        <span class="gift-box" id="gift-box">
+          <span class="gift-lid"></span>
+          <span class="gift-bow">🎀</span>
+          <span class="gift-ribbon"></span>
+          <span class="gift-heart">♥</span>
+        </span>
+        <span class="gift-click">Tap to unwrap your happiness</span>
+      </button>
+
+      <div class="gift-message" id="gift-message" hidden>
+        <span class="gift-big-heart">💝</span>
+        <h3>Surprise, Bandriya!</h3>
+        <p>Your gift is a little reminder that someone is always cheering for you.</p>
+        <p class="gift-extra">Sending you a million virtual hugs! 🫂</p>
+      </div>
+    </section>
+
+    <section class="memory-section section" id="memories">
+      <p class="eyebrow">OUR LITTLE WORLD</p>
+      <h2>Memories we'll always keep 📸</h2>
+      <p class="section-intro">
+        These spaces are waiting for your favourite pictures together.
+      </p>
+
+      
+<div class="photo-grid">
+  <div class="photo-placeholder photo-one">
+    <img src="./images/memory1.jpg " alt="A happy memory with Bandriya">
+    <strong>Our happy moments 💗</strong>
+    <small>Memories I'll always treasure</small>
+  </div>
+
+  <div class="photo-placeholder photo-two">
+    <img src="./image/memory2.jpg" alt="A funny memory with Bandriya">
+    <strong>Our silly memories 🌸</strong>
+    <small>Too many laughs to count</small>
+  </div>
+
+  <div class="photo-placeholder photo-three">
+    <img src="./images/memory3.jpg" alt="A special moment with Bandriya">
+    <strong>Forever family 🫶</strong>
+    <small>Always my favourite people</small>
+  </div>
+</div>
+
+    </section>
+
+    <section class="letter-section section" id="letter">
+      <div class="letter-decoration">💌</div>
+      <p class="eyebrow">FROM MY HEART TO YOURS</p>
+      <h2>One last little thing...</h2>
+      <p class="section-intro">
+        Some things are easier to write than to say out loud.
+      </p>
+      <button class="primary-button" id="letter-button" type="button"
+        aria-expanded="false" aria-controls="secret-letter">
+        Read your secret letter 💗
+      </button>
+
+      <article class="secret-letter" id="secret-letter" hidden>
+        <div class="letter-top">A little letter for Bandriya ♡</div>
+        <h3>Dear Bandriya,</h3>
+        <p>
+          I might not say it every day, but I'm really glad you're my sister.
+          Life is full of ups and downs, and I hope you always remember that
+          you don't have to be perfect to be amazing.
+        </p>
+        <p>
+          Keep smiling, keep dreaming, and never stop being your wonderful self.
+          Even on the days when things don't go as planned, I hope you find a
+          reason to smile and remember how special you are.
+        </p>
+        <p>
+          This little website isn't a big present, but I made it with a lot of
+          love, just to make you smile. You deserve happiness, today and always.
+        </p>
+        <p class="letter-signoff">Lots of love and one big hug, <br> Your sibling 💕</p>
+        <div class="letter-end">♡ ♡ ♡</div>
+      </article>
+    </section>
+
+    <section class="final-section">
+      <div class="final-heart">💗</div>
+      <h2>Never forget this, Bandriya...</h2>
+      <p>You are loved more than this little website could ever explain.</p>
+      <p class="final-script">Always your sibling. Always your friend. ♡</p>
+      <button class="small-button" id="more-hearts" type="button">
+        Send me more hearts! 💕
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ♡, just for Bandriya.</p>
+    <p class="footer-small">A little website. A lot of love.</p>
+  </footer>
+</body>
+</html>
